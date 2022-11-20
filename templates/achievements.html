@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Page-Title -->
+<section class="page-title centred" style="background-image: url({% static 'images/background/eqeas-breadcrumb.jpg' %});">
+    <div class="container">
+        <div class="content-box">
+            <div class="title">About Us</div>
+            <ul class="bread-crumb">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li>Achievements</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Page-Title End -->
+<!-- About-Style-Two -->
+<section class="about-style-two sec-pad">
+    <div class="container">
+        <div class="sec-title centred">We Integrate <span>Climate</span> and <span>Development</span></div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 about-column">
+                <div class="about-content">
+                        <div class="title">Achievements</div>
+                        <ul class="list">
+                            <li>EQEAS has implemented and endured to implement many programs and projects at different levels and with different age groups but highly self-dedicated e.g. Advocacy for better Wellbeing and skill Service Provision, Standards of living Systems Strengthening, Operations Research as well as Policy and Guideline Formulation. Since 1995 EQEAS has advocated for provision and support for a girl child/women, people with disabilities and vulnerable communities at large tailoring and knitting, bakery, sanitary pad making, bead making and all craft making skills environmental friendly businesses.</li>
+                            <li>EQEAS has also been actively advocating for wealth generation through community programs in East Africa. With voluntary communal contribution from the people of republic of Uganda. A number of environmental friendly projects with service provision as a major component continued to be achieved. These include the first ever rural wide home to home skilling in every country of at least two people from each family to be trained especially women and girls in all African countries respectively.</li>
+                            <li>EQEAS also with support from Board of Governor members and community contributions has been providing comprehensive OVC and women support to over 7600 girls and women in Uganda. EQEAS is also currently providing skills training services with local companies in Uganda. EQEAS has strengthened African economy through training of educated and uneducated women in craft making, tailoring, bakery, African wear, designing and many more. EQEAS has also recently trained women and girls in craft making and tailoring and provides them with all the equipment and materials after completion of training. But more still skill trainings are needed for most African countries.</li>
+                            <li>EQEAS implements operational research on poverty eradication, specifically skilling and other community Linkage strategies to care using evidence based approaches and new environmental technology. EQEAS with support from community contributions in Uganda applies the use of skilled and experienced personnel in enrolling and following up study of members. EQEAS is among organizations that pioneer and pilot climate change vulnerable communities in skilling hence eliminating poverty in African. countries.</li>
+                            <li>EQEAS competencies have been demonstrated in facilitating access to and sustainability of better skilled programs and services at community level through designing and implementing relevant environmental friendly programs geared towards prevention and control of unemployment and eradication or mitigation of rural household poverty including orphans vulnerable women and young girls, operational research, community skilling and programs geared toward poverty eradication in rural communities. EQEAS does all this working with like-minded international and local partners with public, private and civil society through application of basic principles of public and private partnerships in Africa.</li>
+                        </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 img-column">
+                <figure class="img-box"><img src="{% static 'images/resource/eqeas-about-img-03.jpg' %}" alt=""></figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About-Style-Two End -->
+{% endblock content %}

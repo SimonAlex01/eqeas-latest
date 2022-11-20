@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Page-Title -->
+<section class="page-title centred" style="background-image: url({% static 'images/background/eqeas-breadcrumb.jpg' %});">
+    <div class="container">
+        <div class="content-box">
+            <div class="title">About Us</div>
+            <ul class="bread-crumb">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li>Who We Are</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Page-Title End -->
+<!-- About-Style-Two -->
+<section class="about-style-two sec-pad">
+    <div class="container">
+        <div class="sec-title centred">We Integrate <span>Climate</span> and <span>Development</span></div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 about-column">
+                <div class="about-content">
+                    <div class="top-content">
+                        <div class="title">About EQEAS</div>
+                        <div class="text">
+                            <p>
+                                Equatorial Environmental Action Support (EQEAS) is an African non‐governmental, non‐profit making, non-denominational, charitable organization founded and based in Uganda. EQEAS is registered under laws of Uganda set to establish its obligations in African continent countries. The Organization first worked on small projects of dealing in nursery beds for tree planting in 1995. Slowly it gained experience over decades and realized roles of tree in environment. Besides tree planting innovators also dealt with bee keeping and had locally made bee hives for honey. Their businesses were so much affected by Environmental Challenges, as equatorial forests were cleared by crop and cattle farmers. Dry seasons increased as rains reduced due to daily encroachment on vegetation cover by crop and animal farmers.
+                            </p>
+                            <p>
+                                EQEAS innovators also diverted their minds to deal in fishing where also lots of climate change problems impacted fishing businesses, as water seems to be hunted away by cultivators. Swamps being cleared, forests are cut down, and water bodies polluted with plastic materials and other pollutants. Hence, EQEAS was formed to contribute on support to restore environment.
+                            </p>
+                            <p>
+                                EQEAS is governed according to its Constitution, Articles and Memorandum of Association. It has mobilized a membership of 58 African countries and has an Executive Board composed of 11 people chaired by an Executive Board Chairperson. It has a secretariat consisting currently of full‐time paid employees (25) as well as volunteers (over 58) headed by the Executive Director and a team of experts.
+                            </p>
+                            <p>
+                                Activities performed majorly are Agriculture, Access to Quality Education, Planting of Trees, Access to Healthcare, Water and Sanitation, Economic Security, Child Participation and other environmental friendly projects which include; tailoring and knitting, bakery and kneading, bead making, weaving, and craft making in all types.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lower-content">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                <div class="single-item">
+                                    <div class="number">01</div>
+                                    <h4><a href="#">Mission</a></h4>
+                                    <div class="text">To advocate for enabling environment restoration, strive for action support for a sustainable natural resources management, ensure food security for African communities through empowerment and policy engagement</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                <div class="single-item">
+                                    <div class="number">02</div>
+                                    <h4><a href="#">Vision</a></h4>
+                                    <div class="text">To reduce current human impact on environment, raise living standards and general welfare for people, particularly African rural poor, embrace sustainable inclusive agricultural development to feed and create prosperity for Africa</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="title">Objectives</div>
+                        <ul class="list">
+                            <li>To encourage Indoor Farming and promote the development of small enterprises such as agricultural development by pumped irrigation etc. which use electrical energy, solar water pump and boreholes in rural areas.</li>
+                            <li>To provide Access to Quality Education for young generation and land utilization by public and make them aware of impacts of climate change, Also to lobby from governments and legislators to create favorable policies for development of poor Africans particularly.</li>
+                            <li>To establish trees planting institutions to support and contribute on restoration of vegetation cover along lakes, rivers and coastal areas so as to tap or prevent plastic material from being dumped into water bodies by running rain water.</li>
+                            <li>To improve on Accessibility of Healthcare for communities in Africa by convincing people that health is not a consumer good but a human right, Therefore, access to health services not is a privilege.</li>
+                            <li>To sustainably and equitably provide cost effective Water and Sanitation services to all communities while conserving the environment.</li>
+                            <li>To enable individuals, households and communities meet their basic and essential needs sustainably. Including food, shelter, clothing, health care, education information, livelihoods, social protection to promote Economic Security among vulnerable impacted by climatic change.</li>
+                            <li>To Support Child Participation in speaking out climate issues affecting lives of people by participating with adults in environmental restoration programs without leaving child energy behind established at levels of international, national and regional networks.</li>
+                        </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 img-column">
+                <figure class="img-box"><img src="{% static 'images/resource/eqeas-about-img-01.jpg' %}" alt=""></figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About-Style-Two End -->
+{% endblock content %}

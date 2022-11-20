@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Page-Title -->
+<section class="page-title centred" style="background-image: url({% static 'images/background/eqeas-breadcrumb.jpg' %});">
+    <div class="container">
+        <div class="content-box">
+            <div class="title">About Us</div>
+            <ul class="bread-crumb">
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li>Team</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Page-Title End -->
+<!-- About-Style-Two -->
+<section class="about-style-two sec-pad">
+    <div class="container">
+        <div class="sec-title centred">We Integrate <span>Climate</span> and <span>Development</span></div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 about-column">
+                <div class="about-content">
+                    <div class="top-content">
+                        <div class="title">Lead | Team Managements</div>
+                        <div class="text">
+                            <p>
+                                EQEAS has senior management teams that meet regularly to oversee organization activities, review performance reports against projects and strategic plans, and approve innovations for future actions. It consists of Executive board of governors and senior people in finance, Human Resource, and Project development operations.  The senior management/lead teams make organization strategy, planning, implementation, operations, reporting, direction, staff and individual performance, financial control and resource allocation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="title">Teams</div>
+                        <ul class="list">
+                            <li>Executive Board of Governors Team</li>
+                            <li>Financial Controllers Team</li>
+                            <li>Human Resource & Administration Managers Team</li>
+                            <li>Deputy Executive Director in Charge of Programs Team</li>
+                            <li>Communications Officers Team</li>
+                            <li>Do Art Research Coordinators Team</li>
+                        </ul>
+                </div>
+                <div class="cause-details-content">
+                    <div class="content-style-one">
+                        <div class="bg-text">The vision of a 10-years strategic plan is to have sustainable programs that will contribute to environmental business skills for prosperous communities</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 img-column">
+                <figure class="img-box"><img src="{% static 'images/resource/eqeas-about-img-02.jpg' %}" alt=""></figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About-Style-Two End -->
+{% endblock content %}

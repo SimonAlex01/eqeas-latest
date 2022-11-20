@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!--Main Slider-->
+<section class="main-slider">
+    
+    <div class="main-slider-carousel owl-carousel owl-theme slide-nav">
+        
+        <div class="slide" style="background-image:url({% static 'images/main-slider/eqeas-slider-1.jpg' %})">
+            <div class="container">
+                <div class="content">
+                    <h1>You Can<br /><span>Help</span> The Poor</h1>
+                    <!-- <div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa<br />qui officia deserunt mollit anim id est laborum. </div> -->
+                    <div class="donate-box"><button class="donate-box-btn theme-btn">Donate Now</button></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide" style="background-image:url({% static 'images/main-slider/eqeas-slider-2.jpg' %})">
+            <div class="container">
+                <div class="content">
+                    <h1>You Can<br /><span>Help</span> The Poor</h1>
+                    <!-- <div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa<br />qui officia deserunt mollit anim id est laborum. </div> -->
+                    <div class="donate-box"><button class="donate-box-btn theme-btn">Donate Now</button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image:url({% static 'images/main-slider/eqeas-slider-3.jpg' %})">
+            <div class="container">
+                <div class="content">
+                    <h1>You Can<br /><span>Help</span> The Poor</h1>
+                    <!-- <div class="text">Excepteur sint occaecat cupidatat non proident, sunt in culpa<br />qui officia deserunt mollit anim id est laborum. </div> -->
+                    <div class="donate-box"><button class="donate-box-btn theme-btn">Donate Now</button></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--End Main Slider-->
+
+<!-- About-Section -->
+<section class="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 about-column">
+                <div class="about-content">
+                    <div class="title">Background</div>
+                    <div class="text">Equatorial Environmental Action Support (EQEAS) is a local non‐governmental, non‐profit making, non-denominational, charitable organization founded and registered under laws of Uganda.</div>
+                    <div class="text">Besides being registered with Government of Uganda, this Organization also procures to be registered and recognized in any other states and or by any foreign Country or place in Africa and overseas governments.</div>
+                    <div class="text">EQEAS is governed according to its Constitution, Articles and Memorandum of Association. It has a Membership of 58 countries from Africa and an Executive Board team composed of 11 people chaired by an Executive Board Chairperson. It has a secretariat consisting currently of full‐time paid employees (71) as well as volunteers (over 130) headed by the Executive Director.</div>
+                    <div class="text">The main goal of this organization is to support on reduction of climate change effects to attain better standards of living and prosperity for rural poor people.</div>
+                    <!-- <ul class="list">
+                        <li>Convallis ligula ligula gravida tristique.</li>
+                        <li>Lobortis massa fringilla odio.</li>
+                    </ul>
+                    <div class="link"><a href="#">Get Started</a></div> -->
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 video-column">
+                <div class="video-gallery wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <img src="{% static 'images/resource/home-about-eqeas.jpg' %}" alt="African Change">
+                    <div class="overlay-gallery">
+                        <div class="icon-holder">
+                            <div class="icon wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                <a class="html5lightbox" title="Video" href="https://youtu.be/1NJHSZpy_iI"><i class="flaticon-play-button"></i></a> 
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12 col-sm-12">
+                <div class="cause-details-content">
+                    <div class="content-style-one">
+                        <div class="bg-text">Climate change may push over 130 million into poverty by 2030 and cause over 200 million people to migrate within their own countries by 2050. (World Bank Analysis)</div>
+                        <div class="text">In response to an increasing impact of climate change on development and security issues, EQEAS is working closely with governments to help build green and climate-resilient societies.</div>
+                        <div class="text">Food and Agriculture sector for African to cooperate with a view to promote meaningful, result-oriented and effective international cooperation in support of action on climate change education, training, public awareness, public participation and avail information to public.</div>
+                    </div>
+                    <div class="content-style-two">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 col-sm-12 column">
+                                <figure class="img-box"><img src="{% static 'images/resource/home-eqeas-strategies.jpg' %}" alt=""></figure>
+                            </div>
+                            <div class="col-lg-7 col-md-12 col-sm-12 column">
+                                <div class="right-content">
+                                    <h3>EQEAS Response Background</h3>
+                                    <div class="text">EQEAS addresses various geographic challenges and researches in five Priority Areas.</div>
+                                    <ul class="list">
+                                        <li>Environment facilities in the countries.</li>
+                                        <li>Cutting down and ruin of forests.</li>
+                                        <li>Nutrition safety.</li>
+                                        <li>Water safekeeping.</li>
+                                        <li>Decreasing and endangered biodiversity.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text">EQEAS activities will continue to support and improve the understanding of climate and land management change impacts on the natural and socio-economic environment within African. EQEAS support will provide scientifically sound knowledge for improving national, regional and international efforts to address adaptation and mitigation strategies.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About-Section End -->
+{% endblock content %}

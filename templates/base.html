@@ -1,0 +1,265 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equatorial Environmental Action Support | EQEAS</title>
+
+    <!-- Stylesheets -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+    <link rel="icon" href="{% static 'images/android-icon-36x36.png' %}" type="image/x-icon">
+</head>
+
+<!-- Page Wrapper -->
+<body class="boxed_wrapper">
+
+    <!-- Preloader -->
+    <div class="preloader"></div>
+    <!-- Preloader -->
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <!-- Header-Top -->
+        <div class="header-top bg-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-12 column">
+                        <div class="top-left">
+                            <ul class="social-content">
+                                <li>Follow Us:</li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-sm-12 column">
+                        <div class="top-right">
+                            <ul class="right-content">
+                                <li><a href="#"><i class="fa fa-phone"></i>Call:  +256 704581999</a></li>
+                                <li><a href="#"><i class="fa fa-envelope"></i>Email:  eeas@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Header-Top End -->
+
+        <!-- Header-Bottom -->
+        <div class="header-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12 col-sm-12 column">
+                        <figure class="logo-box"><a href="#"><img src="{% static 'images/eeas_logo_02.png' %}" alt=""></a></figure>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 menu-column">
+                        <div class="menu-area">
+                            <nav class="main-menu navbar-expand-lg">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->      
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="{% url 'home' %}">Home</a>
+                                        </li>
+                                        <li class="dropdown"><a href="#">About</a>
+                                            <ul>
+                                                <li><a href="{% url 'about' %}">Who We Are</a></li>
+                                                <li><a href="{% url 'achievements' %}">Achievements</a></li>
+                                                <li><a href="{% url 'team' %}">Team</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Projects</a>
+                                            <!-- <ul>
+                                                <li><a href="event-list.html">Development Partners</a></li>
+                                                <li><a href="event-grid.html">Implementing Partners</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="dropdown"><a href="#">Partners</a>
+                                            <ul>
+                                                <li><a href="#">Development Partners</a></li>
+                                                <li><a href="#">Implementing Partners</a></li>
+                                            </ul>
+                                        </li>              
+                                        <li><a href="{% url 'strategies' %}">Strategies</a></li>                  
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 clearfix column">
+                        <ul class="nav-right pull-right">
+                            <li class="donate-box"><button class="donate-box-btn">Donate Now</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Header-Bottom End -->
+
+
+        <!--Sticky Header-->
+        <div class="sticky-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 column">
+                        <figure class="logo-box"><a href="#"><img src="{% static 'images/eeas_logo_02.png' %}" alt=""></a></figure>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 menu-column">
+                        <div class="menu-area">
+                            <nav class="main-menu navbar-expand-lg">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->      
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse clearfix">
+                                    <ul class="navigation clearfix">
+                                        <li><a href="{% url 'home' %}">Home</a>
+                                        </li>
+                                        <li class="dropdown"><a href="#">About</a>
+                                            <ul>
+                                                <li><a href="{% url 'about' %}">Who We Are</a></li>
+                                                <li><a href="{% url 'achievements' %}">Achievements</a></li>
+                                                <li><a href="{% url 'team' %}">Team</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Projects</a>
+                                            <!-- <ul>
+                                                <li><a href="event-list.html">Development Partners</a></li>
+                                                <li><a href="event-grid.html">Implementing Partners</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="dropdown"><a href="#">Partners</a>
+                                            <ul>
+                                                <li><a href="#">Development Partners</a></li>
+                                                <li><a href="#">Implementing Partners</a></li>
+                                            </ul>
+                                        </li>              
+                                        <li><a href="{% url 'strategies' %}">Strategies</a></li>                  
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Sticky Header End -->
+    </header>
+    <!-- End Main Header -->
+    {% block content %}
+
+    {% endblock content %}
+    <!-- Main-Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                        <div class="logo-widget footer-widget">
+                            <figure class="logo-box"><a href="{% url 'home' %}"><img src="{% static 'images/eeas_logo_02.png' %}" alt=""></a></figure>
+                            <div class="text">
+                                <p>EQEAS is committed to building environmental friendly businesses and prosperous families in communities throughout Africa.</p>
+                            </div>
+                            <ul class="footer-social">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
+                        <div class="service-widget footer-widget">
+                            <div class="footer-title">Quick Links</div>
+                            <ul class="list">
+                                <li><a href="{% url 'home' %}">Home</a></li>
+                                <li><a href="{% url 'about' %}">About</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="{% url 'strategies' %}">Strategies</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+                        <div class="contact-widget footer-widget">
+                            <div class="footer-title">Contacts</div>
+                            <div class="text">
+                                <!-- <p>Flat 20, Reynolds Neck, North Helenaville, FV77</p> -->
+                                <p>+256 704581999</p>
+                                <p>+256 753709114</p>
+                                <p>eeas@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Main-Footer End -->
+
+
+    <!-- Footer-Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                    <div class="copyright"><a href="#">EQEAS</a> &copy; 
+                        <script>
+                            var CurrentYear = new Date().getFullYear()
+                            document.write(CurrentYear)
+                        </script>
+                        
+                        All Rights Reserved</div>
+                </div>
+                <!-- <div class="col-lg-6 col-md-6 col-sm-12 column">
+                    <ul class="footer-nav">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Footer-Bottom End -->
+
+    <!--Scroll to Top-->
+    <button class="scroll-top scroll-to-target" data-target="html">
+        <span class="fa fa-long-arrow-up"></span>
+    </button>
+
+
+
+    <!--jquery js -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/wow.js' %}"></script>
+    <script src="{% static 'js/validation.js' %}"></script>
+    <script src="{% static 'js/jquery.fancybox.pack.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/SmoothScroll.js' %}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZQiiFTOGpm2qHVZmZY1s-aEnmHDhqKgk"></script>
+    <script src="{% static 'js/html5lightbox/html5lightbox.js' %}"></script>
+    <script src="{% static 'js/gmaps.js' %}"></script>
+    <script src="{% static 'js/map-helper.js' %}"></script>
+    <script src="{% static 'js/isotope.js' %}"></script>
+    <script src="{% static 'js/jquery-ui.js' %}"></script>
+    <script src="{% static 'js/jquery.appear.js' %}"></script>
+    <script src="{% static 'js/jquery.countTo.js' %}"></script>
+    <!-- main-js -->
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
