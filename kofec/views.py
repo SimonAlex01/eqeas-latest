@@ -16,3 +16,9 @@ class TeamPageView(TemplateView):
 
 class StrategiesPageView(TemplateView):
     template_name = 'strategies.html'
+
+class EQEASStaffPageView(TemplateView):
+    template_name = 'eqeas-staff.html'
+
+class ContactPageView(TemplateView):
+    template_name = 'contact.html'
